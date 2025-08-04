@@ -1,4 +1,4 @@
-<x-layouts.main title="Flite Charter - Premium Private Jet Charter Services">
+<x-layouts.main :seoData="$seoData">
     <!-- Navigation Gradient Overlay -->
     <div class="fixed top-0 left-0 right-0 h-32 bg-gradient-to-b from-black/50 via-black/20 to-transparent z-40 pointer-events-none"></div>
 

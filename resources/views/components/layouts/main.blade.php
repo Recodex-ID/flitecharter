@@ -4,8 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>{{ $title ?? 'Flite Charter - Your Instant Air Transport Solutions' }}</title>
-        <meta name="description" content="Premium private jet charter services that prioritize speed, discretion, and comfort. Your instant air transport solutions for executives and premium travelers.">
+        {!! seo($seoData ?? null) !!}
 
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/apple-touch-icon.png') }}">
         <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/favicon-32x32.png') }}">

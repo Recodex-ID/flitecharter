@@ -17,6 +17,7 @@
                     <flux:navlist.item icon="photo" :href="route('heroes')" :current="request()->routeIs('heroes')" wire:navigate>Manage Heroes</flux:navlist.item>
                     <flux:navlist.item icon="briefcase" :href="route('services')" :current="request()->routeIs('services')" wire:navigate>Manage Services</flux:navlist.item>
                     <flux:navlist.item icon="paper-airplane" :href="route('fleets')" :current="request()->routeIs('fleets')" wire:navigate>Manage Fleets</flux:navlist.item>
+                    <flux:navlist.item icon="document-text" :href="route('page-seo')" :current="request()->routeIs('page-seo')" wire:navigate>Manage Page SEO</flux:navlist.item>
                 </flux:navlist.group>
 
                 @role('Super Admin')

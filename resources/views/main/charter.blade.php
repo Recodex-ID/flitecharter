@@ -1,4 +1,4 @@
-<x-layouts.main title="Aircraft Charter - Flite Charter">
+<x-layouts.main :seoData="$seoData">
     <!-- Hero Section -->
     <section class="relative h-screen w-full">
         <!-- Background Image -->
